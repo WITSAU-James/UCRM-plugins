@@ -279,7 +279,7 @@ class QuickBooksFacade
                 );
                 if ($qbItem) {
                     if ($item['tax1Id']) {
-                        $TaxCode = 'TAX';
+                        $TaxCode = '4';
                     } else {
                         $TaxCode = 'NON';
                     }
